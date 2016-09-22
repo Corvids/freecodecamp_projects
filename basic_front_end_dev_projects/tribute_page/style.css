@@ -16,6 +16,10 @@ h3 {
   padding-top: 20px;
 }
 
+.header-caption {
+  text-align: center;
+}
+
 .attribute {
   font-style: italic;
 }
