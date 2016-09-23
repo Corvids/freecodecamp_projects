@@ -12,7 +12,8 @@ html, body {
 
 /* header */
 .header {
-	background-color: #722872;
+  background-color: #333333;
+  text-align: inline;
 }
 
 .logo {
@@ -28,18 +29,17 @@ html, body {
 }
 
 .nav li {
-  display:inline;
+  display: inline-block;
+  font-weight: 600;
   font-size: 1.25em;
   padding-left: 15px;
   padding-right: 15px;
-  color: #767777;
-}
-
-.header .highlight {
-  background-color: #E7E7E7;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .nav li:hover {
-  text-decoration: none;
-  color: #555555;
+  color: #117bff;
 }
+
+/* jumbotron */
