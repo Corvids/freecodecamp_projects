@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  color:#666;
+  background:#888;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* header */
+.header {
+	background-color: #722872;
+}
+
+.header ul {
+  text-align: right;
+  list-style: none;
+}
+
+.header li {
+	font-size: 20px;
+  color: #776A74;
+  display: inline-block;
+  text-align: center;
+  padding: 20px 30px;
+  margin: 0;
+}
+
+.header .logo {
+  background-color: #e52364;
+}
