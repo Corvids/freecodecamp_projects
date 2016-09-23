@@ -3,7 +3,7 @@ html, body {
   padding: 0;
   color:#666;
   background:#888;
-  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family:"Roboto", sans-serif;
 }
 
 .container {
@@ -24,12 +24,22 @@ html, body {
 
 .nav {
   margin-top: 25px;
+  float: right;
 }
 
 .nav li {
   display:inline;
-  font-size: 1em;
+  font-size: 1.25em;
   padding-left: 15px;
   padding-right: 15px;
   color: #767777;
+}
+
+.header .highlight {
+  background-color: #E7E7E7;
+}
+
+.nav li:hover {
+  text-decoration: none;
+  color: #555555;
 }
