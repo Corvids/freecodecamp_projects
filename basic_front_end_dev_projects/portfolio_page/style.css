@@ -55,6 +55,23 @@ html, body {
 }
 
 .jumbotron h3, p {
-  color: #fff;
+  color: #1A1A1A;
   text-align: right;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+}
+
+/* row */
+.row {
+  margin-top: 30px;
+}
+
+.row img {
+  opacity: 0.70;
+  filter: alpha(opacity=70);
+}
+
+.row img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
 }
