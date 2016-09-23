@@ -2,8 +2,11 @@ html, body {
   margin: 0;
   padding: 0;
   color:#666;
-  background:#888;
+  background:#fff;
   font-family:"Roboto", sans-serif;
+  /* src: https://unsplash.com/photos/LNOJuUSJZqM */
+  background: url(images/background.jpg);
+    background-size: cover;
 }
 
 .container {
@@ -42,4 +45,17 @@ html, body {
   color: #117bff;
 }
 
-/* jumbotron */
+/* Jumbotron */
+.jumbotron {
+  position: relative;
+  top: 50px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+.section .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #dbdbdb;
+}
