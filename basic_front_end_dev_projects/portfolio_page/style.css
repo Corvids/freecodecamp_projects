@@ -136,3 +136,8 @@ html, body {
  .form .btn:hover {
    background-color: #66CD00;
  }
+
+ /* footer */
+ .footer p{
+   text-align: left;
+ }
