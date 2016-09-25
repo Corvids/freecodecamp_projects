@@ -4,9 +4,6 @@ html, body {
   color:#666;
   background:#fff;
   font-family:"Roboto", sans-serif;
-  /* src: https://unsplash.com/photos/LNOJuUSJZqM */
-  background: url(https://hd.unsplash.com/photo-1471896335371-82fdaca100f2);
-    background-size: cover;
 }
 
 .container {
@@ -48,18 +45,39 @@ html, body {
 /* Jumbotron */
 .jumbotron {
   position: relative;
-  top: 50px;
   text-shadow: 0 2px 3px rgba(0,0,0,.4);
-  background-color: transparent;
-  background-repeat: no-repeat;
+  height: 600px;
+  /* src: https://unsplash.com/photos/LNOJuUSJZqM */
+  background: url(https://hd.unsplash.com/photo-1471896335371-82fdaca100f2);
+    background-size: cover;
+    background-color: transparent;
+    background-repeat: no-repeat;
 }
 
 .jumbotron h3, p {
   color: #1A1A1A;
   text-align: right;
   background-color: rgba(255, 255, 255, 0.5);
-  padding: 10px;
 }
+
+/* Banner */
+.banner, .supporting {
+  text-align: center;
+}
+
+.banner {
+  background-color:#333333;
+  height:180px;
+  color: #fff;
+}
+
+.section .btn {
+  background-color: #117bff;
+  border: 0px;
+  margin-top: 24px;
+  color: #fff;
+}
+
 
 /* row */
 .row {
