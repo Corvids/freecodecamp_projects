@@ -46,7 +46,7 @@ html, body {
 .jumbotron {
   position: relative;
   text-shadow: 0 2px 3px rgba(0,0,0,.4);
-  height: 600px;
+  height: 625px;
   /* src: https://unsplash.com/photos/LNOJuUSJZqM */
   background: url(https://hd.unsplash.com/photo-1471896335371-82fdaca100f2);
     background-size: cover;
@@ -66,16 +66,19 @@ html, body {
 }
 
 .banner {
-  background-color:#333333;
   height:180px;
-  color: #fff;
+  color: #333333;
 }
 
-.section .btn {
+.portfolio .btn {
   background-color: #117bff;
   border: 0px;
   margin-top: 24px;
   color: #fff;
+}
+
+.portfolio h3 {
+  text-transform: uppercase;
 }
 
 
