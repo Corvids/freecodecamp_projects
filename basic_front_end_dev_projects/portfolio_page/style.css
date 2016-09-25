@@ -140,4 +140,17 @@ html, body {
  /* footer */
  .footer p{
    text-align: left;
+   padding: 0;
  }
+
+ .footer ul {
+   text-align: right;
+   list-style: none;
+   padding: 0 20px;
+   margin-bottom: 80px;
+}
+
+.footer li {
+  display: inline;
+  margin-right: 20px;
+}
