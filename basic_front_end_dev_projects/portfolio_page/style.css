@@ -119,6 +119,12 @@ html, body {
    color: #333333;
  }
 
+ .form p {
+   text-align: left;
+   padding-top: 30px;
+   font-size: 1.25em;
+ }
+
  .form .btn {
    margin-top: 30px;
    color: #fff;
