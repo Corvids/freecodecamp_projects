@@ -70,6 +70,15 @@ html, body {
   color: #333333;
 }
 
+.portfolio h3 {
+  text-transform: uppercase;
+}
+
+.portfolio {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
 .portfolio .btn {
   background-color: #117bff;
   border: 0px;
@@ -77,9 +86,6 @@ html, body {
   color: #fff;
 }
 
-.portfolio h3 {
-  text-transform: uppercase;
-}
 
 
 /* row */
