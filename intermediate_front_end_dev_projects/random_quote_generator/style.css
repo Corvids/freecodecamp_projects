@@ -7,3 +7,11 @@ body {
   background: url('images/upfeathers.png');
   background-repeat: repeat;
 }
+
+/* footer */
+footer {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #000;
+}
