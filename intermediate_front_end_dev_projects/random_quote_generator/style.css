@@ -8,7 +8,7 @@
 }
 
 body {
-  background: url('images/upfeathers.png');
+  background: url('images/upfeathers.png'), #b3e6ff;
   background-repeat: repeat;
 }
 
