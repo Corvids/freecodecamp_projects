@@ -1,3 +1,40 @@
-["Don't Panic", "The Hitchhiker's Guide to the Galaxy"]
-["Time is an illusion. Lunchtime doubly so.", "The Hitchhiker's Guide to the Galaxy"]
-["Isn't it enough to see that a garden is beautiful without having to believe that there are fairies at the bottom of it too?", "The Hitchhiker's Guide to the Galaxy"]
+[ {"Quote": "Don't Panic.",
+    "Source":"The Hitchhiker's Guide to the Galaxy"},
+  {"Quote": "Time is an illusion. Lunchtime doubly so.",
+    "Source": "The Hitchhiker's Guide to the Galaxy"}
+  {"Quote": "Isn't it enough to see that a garden is beautiful without having to believe that there are fairies at the bottom of it too?",
+  "Source": "The Hitchhiker's Guide to the Galaxy"}
+  {"Quote": "The ships hung in the sky in much the same way that bricks don't.",
+    "Source": "The Hitchhiker's Guide to the Galaxy"}
+  {"Quote": "I'd take the awe of understanding over the awe of ignorance any day.",
+    "Source": "The Salmon of Doubt"}
+  {"Quote": "I may not have gone where I intended to go, but I think I have ended up where I needed to be.",
+    "Source": "The Long Dark Tea-Time of the Soul"}
+  {"Quote": "The Answer to the Great Question... Of Life, the Universe and Everything... Is... Forty-two,' said Deep Thought, with infinite majesty and calm.",
+    "Source": "The Hitchhiker's Guide to the Galaxy"}
+  {"Quote": "All opinions are not equal. Some are a very great deal more robust, sophisticated and well supported in logic and argument than others.",
+    "Source": "The Salmon of Doubt"}
+  {"Quote": "Capital Letters Were Always The Best Way Of Dealing With Things You Didn't Have A Good Answer To.",
+    "Source": "Douglas Adams"}
+  {"Quote": "The bird that would soar above the plain of tradition and prejudice must have strong wings.",
+    "Source": "The Hitchhiker's Guide to the Galaxy"}
+  {"Quote": "'Exactly!' said Deep Thought. 'So once you do know what the question actually is, you'll know what the answer means.'",
+    "Source": "The Hitchhiker's Guide to the Galaxy"}
+  {"Quote": "Ahenny (adj.) - The way people stand when examining other people's bookshelves.",
+    "Source": "The Deeper Meaning of Liff"}
+  {"Quote": "Let the past hold on to itself and let the present move forward into the future.",
+    "Source": "Mostly Harmless"}
+  {"Quote": "People who need to bully you are the easiest to push around.",
+    "Source": "The Long Dark Tea-Time of the Soul"}
+  {"Quote": "Having not said anything the first time, it was somehow even more difficult to broach the subject the second time around.",
+    "Source": "So Long, and Thanks for All the Fish"}
+  {"Quote": "It is folly to say you know what is happening to other people. Only they know, if they exist. They have their own Universes of their own eyes and ears.",
+    "Source": "The Restaurant at the End of the Universe"}
+  {"Quote": "Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.",
+    "Source": "Douglas Adams"}
+  {"Quote": "In an infinite Universe anything can happen.",
+    "Source": "The Restaurant at the End of the Universe"}
+  {"Quote": "And so the problem remained; lots of people were mean, and most were miserable, even the ones with digital watches.",
+    "Source": "The Hitchhiker's Guide to the Galaxy"}
+  {"Quote": "...they discovered only a small asteroid inhabited by a solitary old man who claimed repeatedly that nothing was true, though he was later discovered to be lying.",
+    "Source": "The Hitchhiker's Guide to the Galaxy"}]
