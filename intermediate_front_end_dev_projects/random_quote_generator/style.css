@@ -5,6 +5,11 @@ html, body {
   background-repeat: repeat;
 }
 
+.title {
+  font-family: 'Amatic SC', cursive;
+  padding-bottom: 15px;
+}
+
 .container {
   padding-top: 50px;
 }

@@ -2,9 +2,15 @@ $(document).ready(function() {
   // generate a new quote on button click
   $("#getQuote").on("click", function() {
     var quoteID = Math.floor(Math.random() * (quotes.length));
-    $(".quote").html('"'+quotes[quoteID].quote+'"');
-    $(".source").html("- "+quotes[quoteID].source);
+    $(".quote").html('"' + quotes[quoteID].quote + '"');
+    $(".source").html(" - " + quotes[quoteID].source);
   });
+  // tweet the current quote
+  $('#tweetQuote').click(function() {
+    var quoteToTweet = $(".quote").text() + $(".source").text();
+    window.open('https://twitter.com/intent/tweet?text=' + quoteToTweet);
+  });
+
 });
 
 
