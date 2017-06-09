@@ -1,15 +1,16 @@
-* {
+html, body {
   margin: 0;
   padding: 0;
+  background: url('images/upfeathers.png'), #b3e6ff;
+  background-repeat: repeat;
 }
 
 .container {
   padding-top: 50px;
 }
 
-body {
-  background: url('images/upfeathers.png'), #b3e6ff;
-  background-repeat: repeat;
+.quote {
+  font-style: italic;
 }
 
 /* footer */
