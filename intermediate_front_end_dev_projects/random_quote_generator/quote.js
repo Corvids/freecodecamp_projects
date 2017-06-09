@@ -1,10 +1,15 @@
 $(document).ready(function() {
+  // show a quote when page loads
+  $(".quote").html('"' + quotes[0].quote + '"');
+  $(".source").html(" -- " + quotes[0].source);
+
   // generate a new quote on button click
   $("#getQuote").on("click", function() {
     var quoteID = Math.floor(Math.random() * (quotes.length));
     $(".quote").html('"' + quotes[quoteID].quote + '"');
-    $(".source").html(" - " + quotes[quoteID].source);
+    $(".source").html(" -- " + quotes[quoteID].source);
   });
+
   // tweet the current quote
   $('#tweetQuote').click(function() {
     var quoteToTweet = $(".quote").text() + $(".source").text();
@@ -55,5 +60,7 @@ var quotes = [
   {"quote": "And so the problem remained; lots of people were mean, and most were miserable, even the ones with digital watches.",
     "source": "The Hitchhiker's Guide to the Galaxy"},
   {"quote": "...they discovered only a small asteroid inhabited by a solitary old man who claimed repeatedly that nothing was true, though he was later discovered to be lying.",
-    "source": "The Hitchhiker's Guide to the Galaxy"}
+    "source": "The Hitchhiker's Guide to the Galaxy"},
+  {"quote": "The Universe, as has been observed before, is an unsettlingly big place, a fact which for the sake of a quiet life most people tend to ignore.",
+    "source": "Douglas Adams"}
 ];
