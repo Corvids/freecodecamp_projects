@@ -13,3 +13,22 @@ html, body {
   padding-top: 40px;
   font-size: 60px;
 }
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6495ED;
+  text-decoration: none;
+}
+
+
+/* footer */
+footer {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #fff;
+}
