@@ -24,6 +24,17 @@ a:hover {
   text-decoration: none;
 }
 
+/* weather box */
+.local-weather {
+  background-color: #fff;
+  opacity: 0.75;
+  width:850px;
+  height: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 25px;
+}
+
 
 /* footer */
 footer {
