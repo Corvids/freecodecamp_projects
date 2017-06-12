@@ -42,6 +42,7 @@ a:hover {
   width: 50%;
   table-layout: fixed;
   border-collapse: collapse;
+  padding: 10px 10px;
 }
 
 
