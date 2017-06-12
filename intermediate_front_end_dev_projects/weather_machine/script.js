@@ -2,7 +2,7 @@ $(document).ready(function() {
   //declare variables for location
   var latitude = null;
   var longitude = null;
-  var secretkey = 'XXXXXXX' //input secret key here
+  var secretkey = 'XXXXXXX'; //input secret key here
   var language = 'English';
 
   // get location
