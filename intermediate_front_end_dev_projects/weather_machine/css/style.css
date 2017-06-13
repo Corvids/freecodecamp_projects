@@ -53,6 +53,7 @@ a:hover {
 
 .btn:hover {
   background-color: #4CB24C;
+  outline: none;
 }
 
 /* footer */
