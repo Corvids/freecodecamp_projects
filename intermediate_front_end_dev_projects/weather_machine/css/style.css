@@ -51,6 +51,9 @@ a:hover {
   padding: 10px 10px;
 }
 
+.btn:hover {
+  background-color: #4CB24C;
+}
 
 /* footer */
 footer {
