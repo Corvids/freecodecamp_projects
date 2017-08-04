@@ -5,9 +5,6 @@ $(document).ready(function() {
   var language = 'English';
   var sevenDayWeather = [];
 
-  var secretkey = 'da02804ce924f559722bbce05f35661e'; //input secret key here
-  var api = 'https://api.darksky.net/forecast/'+secretkey+'/'+latitude+','+longitude;
-
   // get location
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
@@ -17,7 +14,15 @@ $(document).ready(function() {
     });
     // if valid location, get weather forecast
     getWeather();
+  } else {
+    console.log('Sorry, we couldn\'t find your location!');
+    latitude = '40.7614';
+    longitude = '73.9776';
   }
+
+
+  var secretkey = 'da02804ce924f559722bbce05f35661e'; //input secret key here
+  var api = 'https://api.darksky.net/forecast/'+secretkey+'/'+latitude+','+longitude;
 
   // get data from API
   // see https://darksky.net/dev/account for secret key
