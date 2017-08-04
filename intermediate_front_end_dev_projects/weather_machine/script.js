@@ -2,9 +2,11 @@ $(document).ready(function() {
   //declare variables for location
   var latitude = null;
   var longitude = null;
-  var secretkey = 'da02804ce924f559722bbce05f35661e'; //input secret key here
   var language = 'English';
   var sevenDayWeather = [];
+
+  var secretkey = 'da02804ce924f559722bbce05f35661e'; //input secret key here
+  var api = 'https://api.darksky.net/forecast/'+secretkey+'/'+latitude+','+longitude;
 
   // get location
   if (navigator.geolocation) {
