@@ -1,10 +1,11 @@
 $(document).ready(function() {
   //declare variables for location
-  var latitude = null;
-  var longitude = null;
+  var latitude = 37.7749;
+  var longitude = 122.4194;
   var language = 'English';
   var sevenDayWeather = [];
   var tempType = 'Fahrenheit';
+  var secretkey = 'da02804ce924f559722bbce05f35661e'; //input secret key here
 
   // get location
   if (navigator.geolocation) {
@@ -19,15 +20,15 @@ $(document).ready(function() {
     longitude = '73.9776';
   };
 
-  var secretkey = 'da02804ce924f559722bbce05f35661e'; //input secret key here
   var api = 'https://api.darksky.net/forecast/'+secretkey+'/'+latitude+','+longitude;
-  console.log(api);
+  console.log('api calling with...', api);
 
   // get data from API
   // see https://darksky.net/dev/account for secret key
   // dark sky doc: https://darksky.net/dev/docs/forecast
   $.getJSON(api, function(data){
     console.log('api call was successful!');
+    var currentWeather = data.currently;
   });
 
   // temperature conversion
