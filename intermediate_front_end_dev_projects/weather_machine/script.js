@@ -3,7 +3,6 @@ $(document).ready(function() {
   var latitude = 37.7749;
   var longitude = 122.4194;
   var language = 'English';
-  var sevenDayWeather = [];
   var tempType = 'Fahrenheit';
   var secretkey = 'da02804ce924f559722bbce05f35661e'; //input secret key here
   var api = 'https://api.darksky.net/forecast/da02804ce924f559722bbce05f35661e/37.7749,122.4194';
@@ -27,7 +26,6 @@ $(document).ready(function() {
       });
     }) //endof geolocation
   }
-
 
   // temperature conversion
   $('#tempToFahrenheit').click(function() {
