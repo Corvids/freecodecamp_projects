@@ -28,7 +28,7 @@ $(document).ready(function() {
   // see https://darksky.net/dev/account for secret key
   // dark sky doc: https://darksky.net/dev/docs/forecast
   $.getJSON(api, function(data){
-    alert(data.coords.longitude, data.coords.latitude);
+    console.log('api call was successful!');
   });
 
   var getWeather = $(function (){
