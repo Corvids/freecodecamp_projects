@@ -21,13 +21,14 @@ function getLocation() {
               var icon = data.weather[0].icon;
               var location = data.name;
               var desc = data.weather[0].main;
-              console.log("DESC", icon, desc)
+
               temp_celsius = data.main.temp;
               temp_fahrenheit = (9/5)*(temp_celsius) + 32;
 
               $('#location').html(location);
               $('#desc').html(desc);
               $('#temperature').html(temp_fahrenheit.toFixed(2));
+              $('#icon').attr("src", icon);
             }
           });
         });

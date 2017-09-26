@@ -14,7 +14,11 @@ body {
 #location,
 #desc {
   font-size: 40px;
-  padding: 20px 0;
+  padding: 10px 0;
+}
+
+#icon {
+  padding-bottom: 40px;
 }
 
 .text-center {
