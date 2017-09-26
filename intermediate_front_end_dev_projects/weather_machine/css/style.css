@@ -1,65 +1,22 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Overpass', sans-serif;
-  /* bckground */
-  background: url('') #000000;
-    background-size: cover;
+body {
+  font-family: 'Roboto';
+  color: #fff;
+  background-color: #161616;
 }
 
-.title {
+ h1 {
+   font-size: 50px;
+   text-align: center;
+   padding-bottom: 30px;
+ }
+
+#temperature,
+#location,
+#desc {
+  font-size: 40px;
+  padding: 20px 0;
+}
+
+.text-center {
   text-align: center;
-  color: #fff;
-  padding-top: 40px;
-  font-size: 60px;
-  /* outline text */
-  text-shadow:
-   -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
-}
-
-a {
-  color: #fff;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #6495ED;
-  text-decoration: none;
-}
-
-/* weather box */
-.weather-box {
-  background-color: #fff;
-  opacity: 0.75;
-  width:850px;
-  height: 100%;
-  margin-left:auto;
-  margin-right:auto;
-  padding: 25px;
-  margin-bottom: 25px;
-}
-
-/* button for temp conversion */
-.btn {
-  text-transform: uppercase;
-  width: 50%;
-  table-layout: fixed;
-  border-collapse: collapse;
-  padding: 10px 10px;
-}
-
-.btn:hover {
-  background-color: #4CB24C;
-  outline: none;
-}
-
-/* footer */
-footer {
-  padding-top: 30px;
-  padding-bottom: 10px;
-  text-align: center;
-  color: #fff;
 }

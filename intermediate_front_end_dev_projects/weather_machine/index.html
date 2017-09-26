@@ -8,40 +8,45 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <h1 class='title'>Weather App</h1>
 
-    <div class="local-weather">
-      <!--Weather goes here-->
-      <div class = "row">
-        <div class="weather-box">
-          <div id = "data">
-            <!-- weather goes here -->
+    <div class="container container-fluid">
+      <h1>
+        Free C🌧de Camp Weather App
+      </h1>
+      <div id="content">
+        <div class="row">
+          <div class="col-xs-6 col-md-6">
+            <div id="desc" class="text-center">
+
+            </div>
           </div>
+          <div class="col-xs-6 col-md-6">
+            <div id="location" class="text-center">
+
+            </div>
+          </div>
+          <div class="col-xs-0 col-md-3"></div>
         </div>
-      </div>
-      <!-- button for temperature conversion -->
-      <div class = "row">
-        <div class = "col-xs-6 text-right">
-          <button id = "tempToFahrenheit" class = "btn btn-primary">
-            Fahrenheit
+        <br/>
+        <br/>
+        <div class="row text-center">
+          <div id='temp' class="col-xs-12">
+            <div id="temperature">
+
+            </div>
+            <div id="deg" class="fahrenheit"></div>
+        </div>
+
+
+        <div id='thebutton' class="row">
+          <div class="col-xs-2 col-sm-4"></div>
+          <button id="tempswitch" type="button" class="btn btn-info btn-lg col-xs-8 col-sm-4">
+            Change to Celsius/Fahrenheit
           </button>
-        </div>
-        <div class = "col-xs-6">
-          <button id = "tempToCelsius" class = "btn btn-primary">
-            Celsius
-          </button>
-        </div>
+        <div class="col-xs-2 col-sm-4"></div>
       </div>
 
     </div>
-
-    <!--footer here-->
-    <div class = "row">
-      <footer>
-        <p>Weather icons from <a href='https://erikflowers.github.io/weather-icons/'>Erik Flowers</a></p>
-        <p><a href='https://darksky.net/dev/docs/forecast'>Powered by Dark Sky API</a></p>
-      </footer>
-    </div>
-
   </body>
+
 </html>

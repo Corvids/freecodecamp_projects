@@ -18,11 +18,16 @@ function getLocation() {
             url: url,
             dataType: 'jsonp',
             success: function(data){
-              var icon = data.weather.icon;
-
+              var icon = data.weather[0].icon;
+              var location = data.name;
+              var desc = data.weather[0].main;
+              console.log("DESC", icon, desc)
               temp_celsius = data.main.temp;
-              temp_fahrenheit = (9/5)*(temperature) + 32;
+              temp_fahrenheit = (9/5)*(temp_celsius) + 32;
 
+              $('#location').html(location);
+              $('#desc').html(desc);
+              $('#temperature').html(temp_fahrenheit.toFixed(2));
             }
           });
         });
@@ -32,17 +37,19 @@ function getLocation() {
 }
 
 $(document).ready(function() {
+
   getLocation();
+
   $('#tempswitch').on('click', function() {
-    if ($('#deg').hasClass('wi-fahrenheit')) {
+    if( $('#deg').hasClass('fahrenheit')) {
       temp = temp_celsius
     } else {
       temp = temp_fahrenheit
     }
-    temp = temp.toFixed(2)
+
+    temp = temp.toFixed(2) // show two decimal places only
     $('#temperature').html(temp)
-    $('#deg').toggleClass('wi-fahrenheit wi-celsius')
+    $('#deg').toggleClass('fahrenheit celsius')
+
   })
-
-
 })
