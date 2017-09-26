@@ -1,39 +1,48 @@
+var temp_celsius;
+var temp_fahrenheit;
+
+function getLocation() {
+    if (navigator.geolocation) {
+        return navigator.geolocation.getCurrentPosition(function (position) {
+          var loc = [position.coords.latitude, position.coords.longitude];
+
+          var LATITUDE = loc[0]
+          var LONGITUDE = loc[1]
+
+          var url = "https://fcc-weather-api.glitch.me/api/current?lat=" + LATITUDE + "&lon=" + LONGITUDE;
+
+          console.log('this is the weather', url)
+
+          data = $.ajax({
+            type: "GET",
+            url: url,
+            dataType: 'jsonp',
+            success: function(data){
+              var icon = data.weather.icon;
+
+              temp_celsius = data.main.temp;
+              temp_fahrenheit = (9/5)*(temperature) + 32;
+
+            }
+          });
+        });
+    } else {
+        console.log("Geolocation is not supported by this browser.");
+    }
+}
+
 $(document).ready(function() {
-  //declare variables for location
-  var latitude = 37.7749;
-  var longitude = 122.4194;
-  var language = 'English';
-  var tempType = 'Fahrenheit';
-  var secretkey = 'da02804ce924f559722bbce05f35661e'; //input secret key here
-  var api = 'https://api.darksky.net/forecast/da02804ce924f559722bbce05f35661e/37.7749,122.4194';
+  getLocation();
+  $('#tempswitch').on('click', function() {
+    if ($('#deg').hasClass('wi-fahrenheit')) {
+      temp = temp_celsius
+    } else {
+      temp = temp_fahrenheit
+    }
+    temp = temp.toFixed(2)
+    $('#temperature').html(temp)
+    $('#deg').toggleClass('wi-fahrenheit wi-celsius')
+  })
 
-  // get location
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function(position) {
-      latitude = position.coords.latitude;
-      longitude = position.coords.longitude;
-      $("#data").html("latitude: " + position.coords.latitude + "<br>longitude: " + position.coords.longitude);
-      api = 'https://api.darksky.net/forecast/'+secretkey+'/'+latitude+','+longitude;
-      console.log('api calling with...', api);
 
-      // get data from API
-      // see https://darksky.net/dev/account for secret key
-      // dark sky doc: https://darksky.net/dev/docs/forecast
-      $.getJSON(api, function(data){
-        console.log('api call was successful!');
-        var currentWeather = data.currently;
-        console.log(currentWeather);
-      });
-    }) //endof geolocation
-  }
-
-  // temperature conversion
-  $('#tempToFahrenheit').click(function() {
-    if(tempType = 'Celsius') temp = temp*(9/5) + 32;
-  });
-  $('#tempToCelsius').click(function() {
-    if(tempType = 'Fahrenheit') temp = (temp - 32)*(5/9);
-  });
-
-  // end document ready
-});
+})
