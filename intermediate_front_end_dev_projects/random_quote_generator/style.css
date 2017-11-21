@@ -33,6 +33,12 @@ body {
     100%{background-position:0% 50%}
 }
 
+/* jumbotron */
+
+.jumbotron {
+  opacity: 0.75;
+}
+
 .title {
   font-family: 'Amatic SC', cursive;
   padding-bottom: 15px;
@@ -52,4 +58,19 @@ footer {
   padding-bottom: 10px;
   text-align: center;
   color: #000;
+}
+
+footer a {
+  color: #000;
+  transition: all 0.15s ease-in;
+  text-decoration:none;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: #FFF;
+	-webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: #FFFFFF;
+      -webkit-fill-color: #FFFFFF;
+      text-shadow: 1px 0px 20px yellow;
 }
