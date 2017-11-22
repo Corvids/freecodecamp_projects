@@ -19,32 +19,36 @@
         Free C🌧de Camp Weather App
       </h1>
       <div id="content">
-        <!-- show location and weather -->
-        <div class="row">
-          <div class="col-xs-6 col-md-6">
+        <!-- location -->
+        <div class="row text-center">
+          <div id='temp' class="col-xs-12">
+            <div id="location" class="text-center">
+              Unknown
+            </div>
+        </div>
+        <br/>
+        <!-- temperature -->
+        <div class="row text-center">
+          <div id='temp' class="col-xs-12">
+            <img src="" id="icon" />
+            <div id="temperature">
+              Unknown
+            </div>
+            <div id="deg" class="fahrenheit"></div>
+          </div>
+        </div>
+        <br/>
+        <!-- weather -->
+        <div class="row text-center">
+          <div id='temp' class="col-xs-12">
             <div id="desc" class="text-center">
               Weather
             </div>
           </div>
-          <div class="col-xs-6 col-md-6">
-            <div id="location" class="text-center">
-              Unknown
-            </div>
-          </div>
-          <div class="col-xs-0 col-md-3"></div>
         </div>
         <br/>
         <br/>
-        <div class="row text-center">
-          <div id='temp' class="col-xs-12">
-            <div id="temperature">
-              Unknown
-            </div>
-            <img src="" id="icon" />
-            <div id="deg" class="fahrenheit"></div>
-          </div>
-        </div>
-
+        <!-- button to switch metrics for temp -->
         <div id='thebutton' class="row">
           <div class="col-xs-2 col-sm-4"></div>
           <button id="tempswitch" type="button" class="btn btn-info btn-lg col-xs-8 col-sm-4">
@@ -52,6 +56,7 @@
           </button>
           <div class="col-xs-2 col-sm-4"></div>
         </div>
+        
       </div>
     </div>
   </body>
