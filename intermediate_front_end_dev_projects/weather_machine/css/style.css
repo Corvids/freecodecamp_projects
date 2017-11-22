@@ -1,8 +1,7 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 25px;
-  color: #fff;
-  background-color: #161616;
+  background-image: url('../images/background.jpeg');
 }
 
  h1 {
@@ -10,6 +9,16 @@ body {
    font-size: 70px;
    text-align: center;
    padding-bottom: 30px;
+ }
+
+p {
+  color: #000;
+}
+ 
+ .container {
+   background-color: white;
+   opacity: 0.75;
+   border-radius: 25px;
  }
 
 #temperature,
