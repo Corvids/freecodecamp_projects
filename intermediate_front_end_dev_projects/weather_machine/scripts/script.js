@@ -20,7 +20,7 @@ function getLocation() {
             success: function(data){
               var icon = data.weather[0].icon;
               var location = data.name;
-              var desc = data.weather[0].main;
+              var desc = data.weather[0].description;
 
               temp_celsius = data.main.temp;
               temp_fahrenheit = (9/5)*(temp_celsius) + 32;
