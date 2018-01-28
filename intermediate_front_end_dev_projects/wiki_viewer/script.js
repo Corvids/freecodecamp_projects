@@ -33,6 +33,10 @@ $(document).ready(function() {
 
   }
 
+  if ($("#search").val().length > 0) {
+    $('.results').empty();
+  };
+
   $('#search').click(function() {
     search();
   });
