@@ -20,6 +20,10 @@ h1 {
   margin-right: 30%
 }
 
+.btn-primary {
+  margin-bottom: 5px;
+}
+
 .footer {
   text-align: center;
 }
