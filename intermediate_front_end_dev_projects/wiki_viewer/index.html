@@ -10,44 +10,24 @@
 
   </head>
   <body>
-    <div class=" container container-fluid main">
-
-  		<!-- Home Page -->
-
-  		<div class="home">
-  			<div class="container">
-  				<div class="row">
-  					<div class="center">
-  						<h1 class="header">WikiSearch</h1>
-  					</div>
-  				</div>
-
-  				<div class="row">
-  					<div class="form-group col-md-12">
-  						<form class="wiki-search-form">
-                <input type="search" placeholder="Search Wikipedia..." class="form-control wiki-input" id="wiki-input">
-                <br />
-                <br />
-  							<button type="button" class="btn btn-primary" id="btn-wiki">Wiki Search</button>
-                <br />
-  							<a type="button" class="btn btn-success" href="http://en.wikipedia.org/wiki/Special:Random" target="_blank">I'm Feeling Lucky</a>
-  						</form>
-  					</div>
-  				</div>
-
-  				<div class="row">
-  					<div class="col-md-12">
-  						<footer class="footer">
-                <a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">Built using Wikipedia's API</a>
-  						</footer>
-  					</div>
-  				</div>
-  			</div>
-  		</div>
-
-    <!-- Results Page -->
-    <div class="result hidden">
-
-    </div> <!-- Results -->
+    <!-- Home Page -->
+    <div class="container container-fluid">
+      <h1 class="header">WikiSearch</h1>
+      <div class="search-bar">
+        <input name="search" id="search" type="search" placeholder="Search Wikipedia..." >
+      </div>
+      <div class="buttons">
+        <button type="button" id="search" class="btn btn-success">Search</button>
+        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+          <button type="button" class="btn btn-info">I'm Feeling Lucky</button>
+        </a>
+      </div>
+    </div>
+     <!-- Results Go Here -->
+    <div class="results container container-fluid">
+    </div>
+    <footer class="footer">
+      <a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">Built using Wikipedia's API</a>
+    </footer>
   </body>
 </html>
