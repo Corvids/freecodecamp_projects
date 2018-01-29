@@ -98,4 +98,8 @@ div.row.online,
 div.row.offline {
   min-height: 45px;
 }
+div.row.online a:hover,
+div.row.offline a:hover {
+  text-decoration: none;
+}
 
