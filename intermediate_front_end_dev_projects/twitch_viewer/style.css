@@ -102,4 +102,7 @@ div.row.online a:hover,
 div.row.offline a:hover {
   text-decoration: none;
 }
+div.row.online {
+  color: #3b1261;
+}
 
