@@ -35,12 +35,21 @@ body {
 /* jumbotron */
 .jumbotron {
   opacity: 0.75;
+}
+
+/* container */
+.container {
   margin-top: 50px;
 }
 
 /* header */
 .header {
-  color: #6445A2;
+  background-color: #6445A2;
+}
+.header h1 {
+  color: #fff;
+  padding: 5px 10px;
+  margin: 0px;
 }
 
 
