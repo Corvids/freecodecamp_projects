@@ -51,15 +51,14 @@ body {
   padding: 5px 10px;
   margin: 0px;
 }
-.header p {
-  font-size: 25px;
-  display: inline-block;
-  float: right;
-  padding-left: 10px;
-  padding-bottom: 20px;
+.header button {
+  background-color: #6445A2;
+  border-radius: 0;
 }
 
 /* active selected */
 .active {
-  color: yellow;
+  background-color: yellow !important;
+  color: #000 !important;
 }
+
