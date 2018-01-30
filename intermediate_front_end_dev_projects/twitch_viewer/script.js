@@ -1,4 +1,4 @@
-var channels = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"];
+const channels = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"];
 
 function getChannelInfo() {
   channels.forEach(function(channel) {
@@ -7,13 +7,10 @@ function getChannelInfo() {
     };
     
     $.getJSON(makeURL("streams", channel), function(data) {
-      var game, status;
+      let game, status;
       
-      if (data.stream === null) {
+      if (data.stream === null || data.stream === undefined) {
         game = "offline";
-        status = "offline";
-      } else if (data.stream === undefined) {
-        game = "Account Closed";
         status = "offline";
       } else {
         game = data.stream.game;
