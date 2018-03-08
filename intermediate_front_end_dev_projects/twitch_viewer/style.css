@@ -26,7 +26,7 @@ body {
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-@keyframes AnimationName { 
+@keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
@@ -94,6 +94,7 @@ body {
 /* row */
 .row {
   padding-bottom: 5px;
+  margin-bottom: 5px;
 }
 div.row.online,
 div.row.offline {
@@ -106,4 +107,3 @@ div.row.offline a:hover {
 div.row.online {
   color: #3b1261;
 }
-
