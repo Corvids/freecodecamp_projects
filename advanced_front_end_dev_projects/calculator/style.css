@@ -5,6 +5,19 @@ html, body {
   padding: 0;
 }
 
+body {
+  background-color: #E8B1ED;
+  font-family: 'Poppins', Sans-Serif;
+  font-size: 14px;
+}
+
+/* title */
+#title {
+  font-family: 'Abril Fatface', Cursive;
+  font-size: 40px;
+  color: #C585B3;
+}
+
 /* calculator */
 #calculator {
   height: 400px;
