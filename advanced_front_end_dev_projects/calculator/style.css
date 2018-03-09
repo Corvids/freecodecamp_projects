@@ -9,6 +9,7 @@ body {
   background-color: #E8B1ED;
   font-family: 'Poppins', Sans-Serif;
   font-size: 14px;
+  color: red;
 }
 
 /* title */
@@ -20,7 +21,6 @@ body {
 
 /* results box -- all entries displayed here */
 #results {
-  width: 85%;
   height: 65px;
   margin-left: auto;
   margin-right: auto;
@@ -47,23 +47,11 @@ body {
 }
 
 /* buttons */
-#buttons {
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff;
-  position: absolute;
-  display: inline-block;
-  height: auto;
-  margin-top: 15px;
-  margin-left: 5px;
-}
-
 button {
-  border-radius: 8px;
+  border-radius: 7px;
   border: none;
-  background-color: #fff;
-  margin: 0 4px 10px 8px;
+  background-color: #FFE9EC;
   height: 40px;
   width: 50px;
-  border: 2px solid #9984D4;
+  border: 2px solid #FFB6C1;
 }
