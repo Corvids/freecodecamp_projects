@@ -24,6 +24,7 @@ body {
   height: 65px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
   border: 2px solid #E8B1ED;
   border-radius: 6px;
   background-color: #FCFBE3;
@@ -39,4 +40,27 @@ body {
   background-color: #D3BEFF;
   border: 2px solid #9984D4;
   border-radius: 15px;
+}
+
+/* buttons */
+#buttons {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  display: inline-block;
+  width: 280px;
+  height: auto;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  background-color: #fff;
+  margin: 0 4px 10px 8px;
+  height: 40px;
+  width: 50px;
+  border: 2px solid #9984D4;
 }
