@@ -1,5 +1,18 @@
 /* TODO: use CSS grid */
+/* color scheme: https://coolors.co/d3beff-e8b1ed-c585b3-caa8f5-9984d4 */
 html, body {
   margin: 0;
   padding: 0;
+}
+
+/* calculator */
+#calculator {
+  height: 400px;
+  width: 300px;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #D3BEFF;
+  border: 2px solid #9984D4;
+  border-radius: 15px;
 }
