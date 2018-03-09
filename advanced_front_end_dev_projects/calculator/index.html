@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -7,14 +7,56 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="script.js"></script>
-  </head>
+    <script src="script.js"></script>  </head>
   <body>
-    
-    <!-- main content -->
-    <div class="main">
-      <div class="container">
+    <!-- header -->
+    <div class="header">
+      <div class="container container-fluid">
 
+      </div>
+    </div>
+
+    <!-- main content -->
+    <div class="main container">
+      <!-- title -->
+      <div id='title' class='text-center'>
+        <p><b>Calculator</b></p>
+      </div>
+      <!-- view calculations here -->
+      <div id="results"></div>
+      <!-- first row of calc -->
+      <div class="row">
+        <div class="col-xs-3 button" id="clear">AC</div>
+        <div class="col-xs-3 button" id="clear-all">CE</div>
+        <div class="col-xs-3" id="divide">/</div>
+        <div class="col-xs-3" id="multiply">*</div>
+      </div>
+      <!-- second row of calc -->
+      <div class="row">
+        <div class="col-xs-3" id="7">7</div>
+        <div class="col-xs-3" id="8">8</div>
+        <div class="col-xs-3" id="9">9</div>
+        <div class="col-xs-3" id="subtract">-</div>
+      </div>
+      <!-- third row of calc -->
+      <div class="row">
+        <div class="col-xs-3" id="4">4</div>
+        <div class="col-xs-3" id="5">5</div>
+        <div class="col-xs-3" id="6">6</div>
+        <div class="col-xs-3" id="add">+</div>
+      </div>
+      <!-- fourth row of calc -->
+      <div class="row">
+        <div class="col-xs-3" id="1">1</div>
+        <div class="col-xs-3" id="2">2</div>
+        <div class="col-xs-3" id="3">3</div>
+        <div class="col-xs-3" id=""></div>
+      </div>
+      <!-- fourth row of calc -->
+      <div class="row">
+        <div class="col-xs-6" id="0">0</div>
+        <div class="col-xs-3" id=".">.</div>
+        <div class="col-xs-3" id="equals">=</div>
       </div>
     </div>
 
