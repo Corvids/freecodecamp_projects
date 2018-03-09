@@ -43,15 +43,30 @@ body {
 }
 
 .row {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 /* buttons */
 button {
   border-radius: 7px;
-  border: none;
   background-color: #FFE9EC;
   height: 40px;
-  width: 50px;
+  width: 100%;
   border: 2px solid #FFB6C1;
+  box-shadow: 0px 3px 0px 0px #E5A3AD, inset -1px -3px 10px 1px #FFF0F2;
+}
+
+button:active {
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
+
+button:focus {
+  outline: 0;
+}
+
+/* equal button */
+#equals {
+  margin-top: -50px;
+  height: 100px;
 }
