@@ -9,7 +9,6 @@ body {
   background-color: #E8B1ED;
   font-family: 'Poppins', Sans-Serif;
   font-size: 14px;
-  color: red;
 }
 
 .row {
@@ -44,6 +43,7 @@ body {
   background-color: #D3BEFF;
   border: 2px solid #9984D4;
   border-radius: 15px;
+  color: #4C1F36;
 }
 
 /* buttons */
