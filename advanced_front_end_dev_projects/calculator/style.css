@@ -12,6 +12,10 @@ body {
   color: red;
 }
 
+.row {
+  margin-bottom: 10px;
+}
+
 /* title */
 #title {
   font-family: 'Abril Fatface', Cursive;
@@ -40,10 +44,6 @@ body {
   background-color: #D3BEFF;
   border: 2px solid #9984D4;
   border-radius: 15px;
-}
-
-.row {
-  margin-bottom: 10px;
 }
 
 /* buttons */
