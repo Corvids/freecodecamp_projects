@@ -23,9 +23,9 @@ body {
 
 /* break and session */
 .break {
-  
+  text-transform: uppercase;
 }
 
 .session {
-  
+  text-transform: uppercase;
 }
