@@ -22,14 +22,16 @@ body {
 }
 
 /* break and session */
-.break {
+.session, .break {
   text-transform: uppercase;
-  display: inline-block;
+}
+
+.break {
+
 }
 
 .session {
-  text-transform: uppercase;
-  display: inline-block;
+
 }
 
 /* plus and minus buttons */
