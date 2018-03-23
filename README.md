@@ -1,3 +1,3 @@
 ## Free Code Camp Projects
 
-Projects completed for Free Code Camp certification
+Projects completed for Free Code Camp
