@@ -1,11 +1,12 @@
 $(document).ready(function() {
   let ans;
   let current;
-  
+  let reset = false;
+
   $('button').click(function() {
     let entry = $(this).attr("value");
     console.log('you clicked on ' + entry);
-    
+
     // clear all calculations
     if( entry === 'All Clear' ) {
       ans = null;
@@ -15,9 +16,13 @@ $(document).ready(function() {
       current = null;
     } else {
       // pressed a calculation key
-      if( entry==='/' || entry==='*' || )
+      if (entry === '/' || entry === '*' || entry === '-' || entry === '+') {
+        log = ans;
+      } else {
+        ans = '';
+      }
     }
-    
+
   });
-  
+
 });
