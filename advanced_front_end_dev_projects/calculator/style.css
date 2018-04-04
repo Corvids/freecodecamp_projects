@@ -1,3 +1,13 @@
+/* for viewport */
+@-ms-viewport{
+  width: device-width;
+}
+@media screen and (max-width:400px) {
+    @-ms-viewport{
+        width:320px;
+    }
+}
+
 body {
   background-color: #E8B1ED;
   font-family: 'Poppins', Sans-Serif;
