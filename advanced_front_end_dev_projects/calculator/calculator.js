@@ -2,6 +2,7 @@ $(document).ready(function() {
   let ans;
   let current;
   let reset = false;
+  var entry = '';
 
   $('button').click(function() {
     let entry = $(this).attr("value");
