@@ -24,6 +24,12 @@ body {
 /* break and session */
 .session, .break {
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+div.session-timer, div.break-timer {
+  margin: 0 10px;
 }
 
 .break {
