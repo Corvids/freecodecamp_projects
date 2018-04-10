@@ -10,6 +10,7 @@ body {
 
 .center-text {
   text-align: center;
+  padding: 0;
 }
 
 .title {
@@ -22,7 +23,7 @@ body {
 }
 
 /* break and session */
-.session, .break {
+.session, .break, h5 {
   text-transform: uppercase;
   display: flex;
   align-items: center;
