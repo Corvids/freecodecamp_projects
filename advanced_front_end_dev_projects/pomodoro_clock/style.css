@@ -26,6 +26,9 @@ body {
   text-transform: uppercase;
   display: flex;
   align-items: center;
+  width: 33%;
+  margin-left: 33%;
+  margin-right: 33%
 }
 
 div.session-timer, div.break-timer {
