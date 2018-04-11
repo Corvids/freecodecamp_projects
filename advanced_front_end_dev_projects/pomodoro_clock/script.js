@@ -16,5 +16,7 @@ $('document').ready(function(){
     session_timer +=1;
   });
   
+  $('.break-timer').append(break_timer);
+  $('.session-timer').append(session_timer);
   
 });
