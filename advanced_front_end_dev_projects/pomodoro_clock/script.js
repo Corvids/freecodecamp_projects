@@ -8,7 +8,7 @@ $('document').ready(function(){
   
   // change session and break times
   $( "#break-minus" ).click(function() {
-    break_timer -=1;
+    if( break_timer > 0) break_timer -=1;
     $('.break-timer').html(break_timer);
   });
   $( "#break-plus" ).click(function() {
@@ -16,7 +16,7 @@ $('document').ready(function(){
     $('.break-timer').html(break_timer);
   });
   $( "#session-minus" ).click(function() {
-    session_timer -=1;
+    if( session_timer >0 ) session_timer -=1;
     $('.session-timer').html(session_timer);
   });
   $( "#session-plus" ).click(function() {
