@@ -4,6 +4,7 @@ body {
   font-weight: 700;
   line-height: 23px;
   margin: 0 0 23px 0;
+  background-color: #EBD5B3;
 }
 
 /* title */
@@ -17,7 +18,7 @@ body {
   font-family: 'Amatic SC', cursive;
   font-weight: 700;
   line-height: 46px;
-  font-size: 46px;
+  font-size: 50px;
   margin: 0 0 23px 0;
   padding-top: 50px;
 }
