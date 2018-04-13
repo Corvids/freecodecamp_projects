@@ -24,4 +24,8 @@ $('document').ready(function(){
     $('.session-timer').html(session_timer);
   });
   
+  $( "#timer" ).click(function() {
+    $("timer").html(session_timer);
+  });
+  
 });
