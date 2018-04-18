@@ -43,6 +43,7 @@ $('document').ready(function(){
     
     let minutes = Math.floor(t % 3600 / 60);
     if( minutes < 10 ) P{}
+    
     let seconds = Math.floor(t % 3600 % 60);
     
     return (
