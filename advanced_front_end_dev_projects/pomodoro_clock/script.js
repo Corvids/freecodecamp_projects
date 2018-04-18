@@ -1,6 +1,7 @@
 $('document').ready(function(){
   let break_timer = 5;
   let session_timer = 25;
+  let time_left = 25;
   
   // show on loading page
   $('.break-timer').append(break_timer);
@@ -16,16 +17,37 @@ $('document').ready(function(){
     $('.break-timer').html(break_timer);
   });
   $( "#session-minus" ).click(function() {
-    if( session_timer >0 ) session_timer -=1;
+    if( session_timer >0 ) {
+      session_timer -=1;
+      time_left = session_timer;
+    }
     $('.session-timer').html(session_timer);
   });
   $( "#session-plus" ).click(function() {
     session_timer +=1;
+    time_left = session_timer;
     $('.session-timer').html(session_timer);
   });
   
+  // clicking timer button will start the count-down
   $( "#timer" ).click(function() {
     $("timer").html(session_timer);
   });
+  
+  function formatTimer(time) {
+    let t = Number(time);
+    let time_string = '';
+    
+    let hours = Math.floor(t / 3600);
+    if( hours > 0 ) time_string += hours.toString() + ':'
+    
+    let minutes = Math.floor(t % 3600 / 60);
+    if( minutes < 10 ) P{}
+    let seconds = Math.floor(t % 3600 % 60);
+    
+    return (
+      (h > 0 ? h + ":" + (m < 10 ? "0" : "") : "") + m + ":" + (s < 10 ? "0" : "") + s
+    ); 
+  }
   
 });
