@@ -82,3 +82,25 @@ button:active {
   box-shadow: 0 5px #D3D3D3;
   transform: translateY(4px);
 }
+
+/* spinning animation */
+/* source: https://davidwalsh.name/css-circles */
+@keyframes spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+/* Spinning, gradient circle; CSS only! */
+#spin-animation {
+	width: 200px;
+	height: 200px;
+
+	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, yellow, orange);
+	background-image: radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+
+	animation-name: spin;
+	animation-duration: 3s; /* 3 seconds */
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
