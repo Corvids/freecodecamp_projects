@@ -67,8 +67,9 @@ button:active {
   outline: none;
   color: #000;
   background-color: #98FF98;
-  border: none;
-  border-radius: 25px;
+  border-radius: 50%;
+	width: 200px;
+	height: 200px;
   box-shadow: 0 9px #D3D3D3;
 }
 .button:hover {
