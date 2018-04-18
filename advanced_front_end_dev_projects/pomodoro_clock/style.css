@@ -42,14 +42,6 @@ div.session-timer, div.break-timer {
   margin: 0 10px;
 }
 
-.break {
-
-}
-
-.session {
-
-}
-
 /* plus and minus buttons */
 
 .btn-default {
@@ -65,3 +57,5 @@ button:active {
   outline: none;
   border: none;
 }
+
+/* timer button */
