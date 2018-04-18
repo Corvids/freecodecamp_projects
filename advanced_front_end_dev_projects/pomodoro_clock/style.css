@@ -59,6 +59,25 @@ button:active {
 }
 
 /* timer button */
-button {
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
   background-color: #98FF98;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 9px #D3D3D3;
+}
+.button:hover {
+  background-color: #FFFF99;
+  color: #FFF;
+}
+.button:active {
+  background-color: #FFFF99;
+  color: #FFF;
+  box-shadow: 0 5px #D3D3D3;
+  transform: translateY(4px);
 }
